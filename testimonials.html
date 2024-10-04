@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1{
+            color: rgb(255, 119, 0);
+        }
+        .testimonial-section {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .testimonial-cards {
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+
+        }
+
+        .testimonial-card {
+            background-color: rgb(125, 225, 194);
+            border-radius: 10px;
+            padding: 20px;
+            width: 500px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .user-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+
+        .rating {
+            color: #FFD700;
+        }
+
+        .rating i {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="testimonial-section">
+        <h1>Testimonials</h1>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <img src="./daenarys.jpg" alt="User 1" class="user-image">
+                <p class="testimonial-text">Testimonials are ne of the most important tools a company can use to show
+                    potential customers how valuable their products and servises are. Testimonials are a short statement
+                    that descibes how a product or service worked for a customer.</p>
+                    <h3>Agarwal</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="./Peter.jpg" alt="User 2" class="user-image">
+                <p class="testimonial-text">Testimonials are ne of the most important tools a company can use to show
+                    potential customers how valuable their products and servises are. Testimonials are a short statement
+                    that descibes how a product or service worked for a customer.</p>
+                    <h3>Roshan</h3>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

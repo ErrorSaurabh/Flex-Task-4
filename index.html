@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgb(255, 254, 254);
+            padding: 10px 20px;
+            height: 150px;
+            left: 30px;
+        }
+
+        .logo {
+            height: 100px;
+            width: 200px;
+        }
+
+        .nav-links {
+            display: flex;
+            font-size: 30px;
+        }
+
+        .nav-links a {
+            color: rgb(233, 127, 13);
+            text-decoration: none;
+            padding: 10px 15px;
+        }
+
+        .nav-links a:hover {
+            background-color: #646161;
+        }
+
+        h1 {
+            color: rgb(233, 127, 13);
+        }
+
+        .background-image {
+            background-image: url('./dcu.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 79vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .transparent-button {
+            background-color: transparent;
+            border: 2px solid rgb(255, 255, 255);
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 10%;
+        }
+
+        .transparent-button:hover {
+            background-color: rgb(218, 119, 26);
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="navbar">
+        <img src="images.png" alt="Logo" class="logo">
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#course">Course</a>
+            <a href="#register">Register</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="background-image">
+        <h1>Inidas No1 training institute</h1>
+        <h2>To become a full-stack devloper now you can join with us</h2>
+        <button class="transparent-button">Click me to join</button>
+    </div>
+    <a href="testimonials.html">Testimonials</a> <br>
+    <a href="login.html">Login</a> <br>
+    <a href="facebook.html">Facebook</a> <br>
+    <a href="twitter.html">Twitter</a><br>
+    <a href="ascent.html">Ascent</a> <br>
+    <a href="testimonial.html">Testimonial</a><br>
+    <a href="cards.html">Card</a><br>
+    <a href="footer.html">Footer</a>
+</body>
+
+</html>
